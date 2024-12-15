@@ -9,4 +9,8 @@
     <ProjectReference Include="..\LibUA\LibUA.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LibUA" Version="1.0.1" />
+  </ItemGroup>
+
 </Project>

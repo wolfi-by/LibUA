@@ -116,7 +116,7 @@ namespace TestClient
                 "urn:DemoApplication", "uri:DemoApplication", new LocalizedText("UA SDK client"),
                 ApplicationType.Client, null, null, null);
 
-            var client = new DemoClient("127.0.0.1", 7718, 1000);
+            var client = new DemoClient("Surface", 48010, 1000);
             var messageSecurityMode = MessageSecurityMode.SignAndEncrypt;
             var securityPolicy = SecurityPolicy.Basic256Sha256;
             bool useAnonymousUser = true;
